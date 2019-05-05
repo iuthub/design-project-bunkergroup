@@ -11,7 +11,7 @@ class QuestionController extends Controller
     {
         return Question::all();
     }
-     public function index2()
+     public function index()
     {
         return Question::all();
     }
@@ -40,5 +40,9 @@ class QuestionController extends Controller
         $article->delete();
 
         return response()->json(null, 204);
+    }
+    public function index2()
+    {
+        
     }
 }
