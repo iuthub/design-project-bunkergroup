@@ -11,6 +11,10 @@ class QuestionController extends Controller
     {
         return Question::all();
     }
+     public function index2()
+    {
+        return Question::all();
+    }
 
     public function show(Article $article)
     {
