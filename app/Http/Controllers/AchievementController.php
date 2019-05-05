@@ -13,6 +13,9 @@ class AchievementController extends Controller
     }
     public function save()
     {
+        return Achievement::all()// 
+    }
+    {
         
         // $article = Achievement::create($request->all());
 
