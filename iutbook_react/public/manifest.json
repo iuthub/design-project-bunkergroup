@@ -1,0 +1,30 @@
+{
+  "short_name": "IUTBook",
+  "name": "IUTBook",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "scholarship-64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "scholarship-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "scholarship.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "http://127.0.0.1:8000/",
+  "display": "minimal-ui",
+  "background_color": "#ffffff",
+  "theme_color": "#419FD9"
+}
