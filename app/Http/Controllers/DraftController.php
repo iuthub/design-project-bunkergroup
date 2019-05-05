@@ -13,7 +13,7 @@ class DraftController extends Controller
 
     public function show(Article $article)
     {
-        return $article;
+        return $article;//testing
     }
 
     public function store(Request $request)
